@@ -1,0 +1,143 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <EditText
+        android:id="@+id/origin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/date"
+        android:layout_alignRight="@+id/date"
+        android:layout_below="@+id/date"
+        android:layout_marginTop="19dp"
+        android:ems="10"
+        android:hint="@string/origin" />
+
+    <EditText
+        android:id="@+id/destination"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/origin"
+        android:layout_alignRight="@+id/origin"
+        android:layout_below="@+id/origin"
+        android:layout_marginTop="21dp"
+        android:ems="10"
+        android:hint="@string/destination" />
+    
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:ems="10"
+        android:hint="@string/date" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/client"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/searchitinerary"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="@string/Email"
+        android:inputType="textEmailAddress"
+        android:visibility="invisible" />
+
+    <EditText
+        android:id="@+id/flightnumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/clientinfo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/flightnumber"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/flightinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/flightnumber"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:text="@string/flightinfo"
+        android:visibility="invisible"
+        android:onClick = "ViewFlightInfo" />
+
+    <Button
+        android:id="@+id/uploadinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/flightinfo"
+        android:layout_alignParentBottom="true"
+        android:text="@string/uploadinfo"
+        android:visibility="invisible"
+        android:onClick = "UploadInfo" />
+
+    <RadioGroup
+        android:id="@+id/sortmethod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/date" >
+
+        <RadioButton
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/time" />
+
+        <RadioButton
+            android:id="@+id/cost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cost" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/bookedflights"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/flightnumber"
+        android:layout_alignLeft="@+id/searchitinerary"
+        android:text="@string/bookedflights"
+        android:onClick = "ViewBookedFlights" />
+
+    <Button
+        android:id="@+id/searchflight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/destination"
+        android:onClick="SearchFlight"
+        android:text="@string/searchflight" />
+
+    <Button
+        android:id="@+id/searchitinerary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/destination"
+        android:onClick="SearchItinerary"
+        android:text="@string/searchitinerary" />
+
+    <Button
+        android:id="@+id/clientinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/client"
+        android:layout_marginTop="24dp"
+        android:layout_toLeftOf="@+id/flightinfo"
+        android:onClick="ClientInfo"
+        android:text="@string/clientinfo" />
+
+</RelativeLayout>

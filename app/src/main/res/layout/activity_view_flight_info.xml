@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <EditText
+        android:id="@+id/newflightnumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/newarrivaldate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/newdeparturedate"
+        android:layout_marginTop="16dp"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/newairline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/newarrivaldate"
+        android:layout_marginTop="16dp"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/newdeparturedate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/newflightnumber"
+        android:layout_marginTop="17dp"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/newdestination"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/neworigin"
+        android:layout_marginTop="14dp"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/neworigin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/newprice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/newdestination"
+        android:layout_marginTop="16dp"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/updateinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="63dp"
+        android:text="@string/updateflightinfo"
+        android:onClick = "updateFlightInfo" />
+
+    <EditText
+        android:id="@+id/newseatnumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/newprice"
+        android:layout_marginTop="14dp"
+        android:ems="10" />
+
+</RelativeLayout>

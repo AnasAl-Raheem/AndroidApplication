@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/clientinfo" />
+
+    <EditText
+        android:id="@+id/ClientLastName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/ClientFirstName"
+        android:layout_marginTop="22dp"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/ClientAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/ClientLastName"
+        android:layout_marginTop="23dp"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/ClientEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/ClientAddress"
+        android:layout_marginTop="30dp"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/ClientCreditCard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/ClientEmail"
+        android:layout_marginTop="30dp"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/ClientExpiryDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/ClientCreditCard"
+        android:layout_marginTop="20dp"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/ClientFirstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="29dp"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/SaveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/Save"
+        android:onClick = "save" />
+
+</RelativeLayout>

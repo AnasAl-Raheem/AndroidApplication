@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="team.csc207.androidapplication"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".LogIn"
+            android:label="@string/title_activity_log_in" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ViewClientInfo"
+            android:label="@string/title_activity_view_client_info" >
+        </activity>
+        <activity
+            android:name=".DisplayBooked"
+            android:label="@string/title_activity_display_booked" >
+        </activity>
+        <activity
+            android:name=".DisplayItinerary"
+            android:label="@string/title_activity_display_itinerary" >
+        </activity>
+        <activity
+            android:name=".DisplayFlight"
+            android:label="@string/title_activity_display_flight" >
+        </activity>
+        <activity
+            android:name=".DisplayActivity"
+            android:label="@string/title_activity_display" >
+        </activity>
+        <activity
+            android:name=".SignUpActivity"
+            android:label="@string/title_activity_sign_up" >
+        </activity>
+        <activity
+            android:name=".CreateClient"
+            android:label="@string/title_activity_create_client" >
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name=".SearchResults"
+            android:label="@string/title_activity_search_results" >
+        </activity>
+        <activity
+            android:name=".UploadInfo"
+            android:label="@string/title_activity_upload_info" >
+        </activity>
+        <activity
+            android:name=".ViewFlightInfo"
+            android:label="@string/title_activity_view_flight_info" >
+        </activity>
+    </application>
+
+</manifest>

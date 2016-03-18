@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="AdditionalInfo">Please enter Additional Information to complete Registration</string>
+    <string name="Address">Address</string>
+    <string name="Admin">Admin</string>
+    <string name="Client">Client</string>
+    <string name="CreditCardNumber">Credit Card Number</string>
+    <string name="Email">Email</string>
+    <string name="Expiry">Expiry Date</string>
+    <string name="FirstName">First Name</string>
+    <string name="Greeting">Please enter your username and password.</string>
+    <string name="LastName">Last Name</string>
+    <string name="Password">Password</string>
+    <string name="PromptSignUp">Please enter all information to register as a user.</string>
+    <string name="Save">Save</string>
+    <string name="Signup">Sign Up</string>
+    <string name="Username">Username</string>
+    <string name="app_name">AndroidApplication</string>
+    <string name="bookedflights">BookedFlights</string>
+    <string name="bookflight">Book Flight</string>
+    <string name="clientinfo">ClientInfo</string>
+    <string name="cost">Cost</string>
+    <string name="date">Date</string>
+    <string name="destination">Destination</string>
+    <string name="directory">Directory</string>
+    <string name="flightinfo">FlightInfo</string>
+    <string name="flightnumber">FlightNumber</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="origin">Origin</string>
+    <string name="searchflight">SearchFlight</string>
+    <string name="searchitinerary">SearchItinerary</string>
+    <string name="submit">Submit</string>
+    <string name="time">Time</string>
+    <string name="title_activity_create_admin">CreateAdmin</string>
+    <string name="title_activity_create_client">CreateClient</string>
+    <string name="title_activity_create_user">CreateUser</string>
+    <string name="title_activity_display">DisplayActivity</string>
+    <string name="title_activity_display_booked">DisplayBooked</string>
+    <string name="title_activity_display_flight">DisplayFlight</string>
+    <string name="title_activity_display_itinerary">DisplayItinerary</string>
+    <string name="title_activity_log_in">LogIn</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_search_results">SearchResults</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="title_activity_upload_info">UploadInfo</string>
+    <string name="title_activity_view_client_info">ViewClientInfo</string>
+    <string name="title_activity_view_flight_info">ViewFlightInfo</string>
+    <string name="updateflightinfo">UpdateFlightInfo</string>
+    <string name="uploadflightinfo">UploadFlightInfo</string>
+    <string name="uploadinfo">UploadInfo</string>
+    <string name="uploaduserinfo">UploadUserInfo</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

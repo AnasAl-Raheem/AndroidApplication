@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "C:\\Users\\anasa\\new207\\AndroidApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\Users\\anasa\\new207\\AndroidApplication\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\anasa\\new207\\AndroidApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_display_booked.xml",
+        "source": "C:\\Users\\anasa\\new207\\AndroidApplication\\app\\src\\main\\res\\layout\\activity_display_booked.xml"
+    },
+    {
+        "merged": "C:\\Users\\anasa\\new207\\AndroidApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_display_flight.xml",
+        "source": "C:\\Users\\anasa\\new207\\AndroidApplication\\app\\src\\main\\res\\layout\\activity_display_flight.xml"
+    },
+    {
+        "merged": "C:\\Users\\anasa\\new207\\AndroidApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_view_client_info.xml",
+        "source": "C:\\Users\\anasa\\new207\\AndroidApplication\\app\\src\\main\\res\\layout\\activity_view_client_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\anasa\\new207\\AndroidApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_sign_up.xml",
+        "source": "C:\\Users\\anasa\\new207\\AndroidApplication\\app\\src\\main\\res\\layout\\activity_sign_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\anasa\\new207\\AndroidApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_log_in.xml",
+        "source": "C:\\Users\\anasa\\new207\\AndroidApplication\\app\\src\\main\\res\\layout\\activity_log_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\anasa\\new207\\AndroidApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_search_results.xml",
+        "source": "C:\\Users\\anasa\\new207\\AndroidApplication\\app\\src\\main\\res\\layout\\activity_search_results.xml"
+    },
+    {
+        "merged": "C:\\Users\\anasa\\new207\\AndroidApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_view_flight_info.xml",
+        "source": "C:\\Users\\anasa\\new207\\AndroidApplication\\app\\src\\main\\res\\layout\\activity_view_flight_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\anasa\\new207\\AndroidApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_upload_info.xml",
+        "source": "C:\\Users\\anasa\\new207\\AndroidApplication\\app\\src\\main\\res\\layout\\activity_upload_info.xml"
+    }
+]

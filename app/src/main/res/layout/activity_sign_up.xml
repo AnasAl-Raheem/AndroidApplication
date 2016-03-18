@@ -1,0 +1,96 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/PromptSignUp" />
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="50dp"
+        android:onClick="SignUp"
+        android:text="@string/submit" />
+
+    <EditText
+        android:id="@+id/lastName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:ems="10"
+        android:hint="@string/LastName" />
+
+    <EditText
+        android:id="@+id/firstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/lastName"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:hint="@string/FirstName" />
+
+    <EditText
+        android:id="@+id/Address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/client"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:hint="@string/Address" />
+
+    <EditText
+        android:id="@+id/expiryDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/creditcardnumber"
+        android:layout_marginTop="21dp"
+        android:ems="10"
+        android:hint="@string/Expiry" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/client"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/firstName"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="@string/Email" />
+
+    <EditText
+        android:id="@+id/creditcardnumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/Address"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:hint="@string/CreditCardNumber" />
+
+    <EditText
+        android:id="@+id/clientpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/signup"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:hint="@string/Password" />
+
+</RelativeLayout>
